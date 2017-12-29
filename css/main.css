@@ -4,13 +4,15 @@
 }
 body{
   font-family: monospace;
-}
-header{
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(image1.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
   padding: 29px 0px 0px 10px;
+
+}
+header{
+
 
 }
 h1{
@@ -42,10 +44,54 @@ h1{
 .main-nav li a:hover{
   border: 1px solid indianred;
 }
-
-p{
-  background: lavender;
-  padding: 5px 5px 0px 0px;
-  color: navy;
-  font: monospace;
+/*create profile box on page2.html*/
+.box{
+  width:400px; height: 350px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 35px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'monospace', sans-serif;
 }
+.box-img{
+  background-image: url(profile.jpg);
+  background-position: top;
+  background-size: 150%;
+  border-radius: 50%;
+  width: 190px; height: 190px;
+  border: 1.3px solid silver;
+}
+.box h3{
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 11.4px;
+  letter-spacing: 3px;
+  padding-top: 10px;
+}
+.box p{
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+ul{
+  margin: 0px;
+  padding:  20px;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  font-size: 30px;
+  transition: all ease-in-out 200ms;
+}
+.box li a:hover{
+  color: indianred;
+}
+
